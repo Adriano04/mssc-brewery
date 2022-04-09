@@ -35,4 +35,16 @@ public class BeerController {
                 .headers(headers)
                 .body(newBeer);
     }
+
+    @PutMapping("/{beerId}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void updateBeer(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto) {
+        beerService.updateBeer(beerId, beerDto);
+    }
+
+    @DeleteMapping("/{beerId}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteBeer(@PathVariable("beerId") UUID beerId) {
+        beerService.deleteBeerById(beerId);
+    }
 }
