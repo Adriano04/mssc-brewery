@@ -1,4 +1,4 @@
-package guru.springframework.msscbrewery.services;
+package guru.springframework.msscbrewery.services.customer;
 
 import guru.springframework.msscbrewery.web.model.CustomerDto;
 import lombok.extern.slf4j.Slf4j;

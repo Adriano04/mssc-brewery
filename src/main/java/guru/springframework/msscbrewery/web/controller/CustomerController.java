@@ -1,6 +1,6 @@
 package guru.springframework.msscbrewery.web.controller;
 
-import guru.springframework.msscbrewery.services.CustomerService;
+import guru.springframework.msscbrewery.services.customer.CustomerService;
 import guru.springframework.msscbrewery.web.model.CustomerDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;

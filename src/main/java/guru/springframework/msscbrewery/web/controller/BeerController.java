@@ -1,6 +1,6 @@
 package guru.springframework.msscbrewery.web.controller;
 
-import guru.springframework.msscbrewery.services.BeerService;
+import guru.springframework.msscbrewery.services.beer.BeerService;
 import guru.springframework.msscbrewery.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
